@@ -1,7 +1,7 @@
 /* Service Worker – Kenntnisprüfung Fallsimulation
    Cache-Version bei jeder inhaltlichen Änderung der HTML erhöhen (v1 -> v2 ...),
    damit Clients die neue Fassung sicher laden. */
-const CACHE = 'kp-training-v1';
+const CACHE = 'kp-training-v2';
 
 self.addEventListener('install', () => {
   self.skipWaiting();
